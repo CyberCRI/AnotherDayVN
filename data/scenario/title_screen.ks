@@ -1,51 +1,27 @@
+[_tb_system_call storage=system/_title_screen.ks]
 
-;==============================
-; タイトル画面
-;==============================
 [hidemenubutton]
 
+[tb_hide_message_window  ]
+[bg  storage="Opening_screen.jpg"  ]
+*title
 
-	;標準のメッセージレイヤを非表示
-	[tb_hide_message_window]
+[glink  text="New&nbsp;Game"  x="20"  y="400"  target="*start"  width=""  height=""  _clickable_img=""  ]
+[glink  text="Load&nbsp;Game"  x="20"  y="500"  target="*load"  width=""  height=""  _clickable_img=""  ]
+[s  ]
+*start
 
-	;タイトル表示
-	[bg storage ="title.jpg"]
+[showmenubutton]
 
-	*title
+[cm  ]
+[jump  storage="scene1.ks"  target=""  ]
+[s  ]
+*load
 
-	
+[showmenubutton]
 
-	;タイトル各種ボタン
-	[glink text="New&nbsp;Game" x=600 y=370 target="*start"]
-	[glink text="Load&nbsp;Game" x=600 y=470 target="*load"]
+[cm  ]
+[showload]
 
-	
-
-	[s]
-
-	;-------ボタンが押されたときの処理
-
-	*start
-
-	
-	[showmenubutton]
-	
-
-	[cm]
-	@jump storage="scene1.ks"
-	[s]
-
-	;--------ロードが押された時の処理
-	*load
-
-	
-	[showmenubutton]
-	
-
-	[cm]
-	[showload]
-	[jump target=*title]
-
-	[s]
-
-
+[jump  target="*title"  storage=""  ]
+[s  ]
