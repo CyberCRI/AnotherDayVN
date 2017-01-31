@@ -2,6 +2,8 @@
 
 [hidemenubutton]
 
+[stopbgm  time="1000"  fadeout="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="Another_day_-_Office_introduction.ogg"  fadein="true"  ]
 [tb_hide_message_window  ]
 [bg  storage="Opening_screen.jpg"  ]
 *title
