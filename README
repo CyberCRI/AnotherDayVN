@@ -1,0 +1,10 @@
+# Another Day
+
+A visual novel about diversity and inclusivity in the workplace, brought to you by the IncLudo project.
+
+
+## Development
+
+Another Day has been developed in [TyranoBuilder](http://store.steampowered.com/app/345370). 
+
+To develop on it, you'll need to clone or download the repository and then copy it to Tyrano's projects folder (in `Library/Application Support/Steam/steamapps/common/TyranoBuilder/myproject` on Mac).
