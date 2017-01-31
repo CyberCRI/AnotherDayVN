@@ -61,9 +61,7 @@ You take a few seconds to answer.[p]
 [chara_hide  name="Neha"  time="1000"  wait="true"  pos_mode="true"  ]
 #
 The morning end quickly, and just before lunch you send an e-mail for your friends to eat with them. [p]
-
 You get a positive reply. When you're leaving your office, you catch a glimpse of Neha's friends trying to console her.[p]
-
 
 
 [jump  storage="scene1.ks"  target="*Lunch"  ]
@@ -109,13 +107,26 @@ You get a positive reply. While you're leaving your office, you catch a glimpse 
 [bg  time="3000"  method="crossfade"  storage="Canteen_lunch.jpg"  ]
 [chara_mod  name="Mehdi"  time="600"  storage="chara/2/Mehdi_neutral.png"  ]
 [chara_mod  name="Rayan"  time="600"  storage="chara/3/Rayan_happy.png"  ]
-[chara_show  name="Mehdi"  time="1000"  wait="true"  left="535"  top="32"  width=""  height=""  reflect="false"  ]
+#
+At lunch, you meet with Rayan...[p]
+
+
 [chara_show  name="Rayan"  time="1000"  wait="true"  left="29"  top="46"  width=""  height=""  reflect="false"  ]
 #
-You meet with Rayan and Medhi, as planned. They seem to be waiting for you. [p]
+... and Mehdi[p]
+
+
+[chara_show  name="Mehdi"  time="1000"  wait="true"  left="535"  top="32"  width=""  height=""  reflect="false"  ]
+#
+They seem to be waiting for you. [p]
+
 "Hello everyone, I hope I'm on time!"[p]
-#Medhi
-Don't worry, we didn't begin. So how was your morning?[p]
+#Rayan
+Don't worry, we didn't start yet. [p]
+#Mehdi
+So how was your morning?[p]
+
+
 #
 You began to discuss familiar subjects: work, home, the good movies you have seen this week-end. Everyone is in a good mood, and you have trouble imagining why Neha struggles to get along with them. [p]
 When the right opportunity comes, you decide to bring her up. [p]
